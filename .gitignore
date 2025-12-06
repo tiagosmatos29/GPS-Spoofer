@@ -4,4 +4,3 @@ __pycache__/
 .idea/
 *.grc.py
 gps-sdr-sim/build/
-
