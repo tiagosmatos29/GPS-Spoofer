@@ -45,7 +45,7 @@ GPS-Spoofer/
 ├── gps-sdr-sim-master/
 │   ├── gpssim.c
 │   ├── gps-sdr-sim
-│   └── brdc*.n               # Broadcast ephemeris files
+│   └── brdc*.n           # Broadcast ephemeris files
 │
 ├── Spoofing_para_GPS.pdf # Project report
 │    
@@ -93,8 +93,9 @@ pip install PyQt5 PyQtWebEngine
 
 ```bash
 git clone https://github.com/osqzss/gps-sdr-sim.git
-cd gps-sdr-sim
+cd gps-sdr-sim-master
 gcc gpssim.c -lm -O3 -o gps-sdr-sim
+./gps-sdr-sim -b 8 -e brdcXXXX.XXn -l LATITUDE,LONGITUDE,100
 ```
 
 ---
