@@ -1,5 +1,5 @@
 # GPS Spoofer
-> **Academic project – GNSS signal simulation and transmission using SDR**
+> **Master Academic Project – GNSS signal simulation and transmission using SDR**
 
 ⚠️ **Legal & Ethical Notice**
 
@@ -135,7 +135,6 @@ python spoofer_gui.py
 ## 👤 Author
 
 **Tiago Matos**
-Master Academic Project
 
 ---
 
